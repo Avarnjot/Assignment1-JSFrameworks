@@ -1,0 +1,54 @@
+/* This is the our CSS File in which I tried to 
+    make the HTML page as elegant as I can.
+    I used urls to get a background image/ Font styles    
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image:
+    url(https://lh3.googleusercontent.com/proxy/IK9tnph6TRDVnaHzyhZ5fcToPQBV3k3Nj-NfX7FZ2lqmR3tWGn44h9l0MT4tNYysTjZuVvdLlrjCZHPskJlOYT8Da5SdM34w42iHVERRCe--_-9DFihHMvA=w3840-h2160-p-k-no-nd-mv);
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    font-family: 'Sofia';
+}
+
+.container{
+    width: 70%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 1.5em;
+}
+
+.container header{
+    width: fit-content;
+    font-weight: bolder;
+    margin: auto;
+    font-size: 1.2em;
+}
+
+.container header h2{
+    margin: auto;
+}
+
+.container h3{
+    margin-top: 30px;
+}
+
+.container footer{
+    margin-top: 50px;
+    font-size: 1.2em;
+}
+
+.container main p{
+    margin-top: 30px;
+}
+
+.container h2, h3{
+    font-family: 'Aclonica';
+}
